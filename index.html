@@ -1,4 +1,4 @@
-<!-- Coded by Tariqul Islam -->
+<!-- Code by Tariqul Islam -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -447,6 +447,16 @@
             background-color: var(--primary-color);
             margin: 10px 0;
         }
+        .contact-info {
+            text-align: center;
+            font-size: 0.8rem;
+            color: black;
+            margin-top: 10px;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -575,7 +585,7 @@
                 container.innerHTML = '<p class="monthly-coming-soon">Coming soon! :)</p>';
                 const noteElement = document.createElement('div');
                 noteElement.className = 'monthly-note';
-                noteElement.innerHTML = '<p>For your privacy, all data on this website is stored locally on your device. Please avoid clearing your local storage to prevent data loss.</p><button class="add-class-btn" onclick="window.location.href=\'https://github.com/tariqulislamrahat/edumap/archive/refs/heads/main.zip\'"> &lt;/&gt; Download Source</button>';
+                noteElement.innerHTML = '<p>For your privacy, all data on this website is stored locally on your device. Please avoid clearing your local storage to prevent data loss.</p><div class="contact-info"><p>For any inquiries: <a href="mailto:contact@edumap.software" style="color: black;">contact@edumap.software</a></p></div><button class="add-class-btn" onclick="window.location.href=\'https://github.com/tariqulislamrahaat/edumap/archive/refs/heads/main.zip\'"> &lt;/&gt; Download Source</button>';
                 container.appendChild(noteElement);
                 addClassButton.style.display = 'none';
             }
